@@ -56,7 +56,7 @@ Item peek(Stack *stack)
 
 void stack_overflow(void)
 {
-	printf("Expression is too complex\n");
+	printf("EXPRESSION IS TOO COMPLEX\n");
 	exit(EXIT_FAILURE);
 }
 
